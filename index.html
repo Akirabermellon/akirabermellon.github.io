@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0;url=en/index.html">
+  <title>The Restless Eye — Akira Salas Ariza</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function() {
+      try {
+        var pref = localStorage.getItem('preferred_lang');
+        if (pref === 'es') {
+          window.location.replace('es/index.html');
+        } else {
+          window.location.replace('en/index.html');
+        }
+      } catch (e) {
+        window.location.replace('en/index.html');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div style="font-family: Georgia, serif; max-width: 600px; margin: 80px auto; padding: 24px; text-align: center;">
+    <h1 style="font-size: 32px; margin-bottom: 16px;">The Restless Eye</h1>
+    <p style="color: #666; margin-bottom: 24px;">Narrative reporting on current affairs · Akira Salas Ariza</p>
+    <p><a href="en/index.html" style="color: #c94a29; font-weight: bold; text-decoration: none; margin-right: 16px;">English Version →</a> <a href="es/index.html" style="color: #1e1d1a; text-decoration: none;">Versión en Español →</a></p>
+  </div>
+</body>
+</html>
